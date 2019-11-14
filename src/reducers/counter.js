@@ -18,8 +18,12 @@ function in_array(stringToSearch, arrayToSearch) {
 }
 export default function counter (state = INITIAL_STATE, action) {
   // 獵取當前todos條數，用以id自增
+  state.todos=state.todos.map((item,index)=>{
+    item.id=index+''
+    return item
+  })
   let todoNum = state.todos.length+''
-  
+
   switch (action.type) {
     case ADD:
       return {

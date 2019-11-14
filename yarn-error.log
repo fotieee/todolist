@@ -1,5 +1,5 @@
 Arguments: 
-  D:\Program Files\nodejs\node.exe C:\Users\lormi-002\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add path/to/weapp/name --silent --no-progress
+  D:\Program Files\nodejs\node.exe C:\Users\lormi-002\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @tarojs/taro-h5/dist/taroApis --silent --no-progress
 
 PATH: 
   C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\lormi-002\AppData\Local\Microsoft\WindowsApps;;d:\Users\lormi-002\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lormi-002\AppData\Roaming\npm
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/path%2fto/weapp/name: Request "https://registry.yarnpkg.com/path%2fto/weapp/name" returned a 405
+  Error: https://registry.yarnpkg.com/@tarojs%2ftaro-h5/dist/taroApis: Request "https://registry.yarnpkg.com/@tarojs%2ftaro-h5/dist/taroApis" returned a 405
       at Request.params.callback [as _callback] (C:\Users\lormi-002\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66935:18)
       at Request.self.callback (C:\Users\lormi-002\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140564:22)
       at Request.emit (events.js:210:5)
